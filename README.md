@@ -1,5 +1,7 @@
-# mobile_app
-
+# Crop-Disease_Detection-Management-with-Conversational-Chatbot
+Developed a crop disease detection system that accurately identifies plant diseases from images using CNN and
+ provides effective solutions. Integrated a conversational chatbot to deliver insights and recommendations for
+ disease management, improving user experience and decision-making.
 A new Flutter project.
 
 ## Getting Started
