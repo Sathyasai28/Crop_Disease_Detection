@@ -1,0 +1,25 @@
+name: mobile_app
+description: A Crop Disease Detection app using Flutter and CNN.
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7 # To pick images from gallery/camera
+  http: ^1.3.0 # To send requests to backend/model
+  tensorflow_lite_flutter: ^2.0.1 # For using TFLite model
+  provider: ^6.0.5 # State management
+  flutter_tts: ^4.2.2 # Text-to-speech for chatbot
+  flutter_markdown: ^0.6.17
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sample_disease_images/ # Ensure this exists
+    - assets/chatbot_data/chatbot_responses.json # Ensure this exists
+    - assets/models/trained_model.tflite
+    - assets/models/labels.txt
